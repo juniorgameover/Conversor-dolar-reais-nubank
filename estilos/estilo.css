@@ -1,0 +1,63 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+#banner  {
+    display:flex;
+    width: 800px;
+  height: 150px;
+  background-color: blueviolet;
+  margin: auto; 
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+h2 { 
+
+  color: aliceblue;
+
+}
+
+ul{
+    color:aliceblue;
+    text-shadow: black;
+    margin:10px auto;
+    width: 760px;
+    height:100px;
+   background-color: lightskyblue;
+border-style: solid;
+   
+}   
+form {
+    width: 800px;
+    margin: auto;
+       
+}
+
+#custo-produto{
+    margin-left: 17px;
+}
+
+#ptax{
+    margin-left:120px;
+    margin-top: 5px;
+}
+#campo1, #campo2, #calcular{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin-top: 10px;
+}
+
+#resultado {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 28px;
+  
+}
